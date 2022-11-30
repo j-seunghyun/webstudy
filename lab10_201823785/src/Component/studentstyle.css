@@ -1,0 +1,82 @@
+
+#homeworkName{
+    font-size:80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#studentContainer{
+
+    width : 1120px;
+    height: 620px;
+    display: flex;
+    background-color: lightsteelblue;
+    flex-direction: column;
+    align-items: center;
+    border-radius:30px;
+    justify-content: center;
+}
+
+#logoBox{
+    width:1060px;
+    height: 100px;
+    margin:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoImage{
+    width: 250px;
+    align-items:center;
+}
+
+#innerContainer{
+    width:1120px;
+    height:460px;
+    display:flex;
+    flex-direction:row;
+}
+
+#imageContainer{
+    margin:30px;
+    width: 450px;
+    height: 400px;
+    display:flex;
+    justify-content : center;
+
+}
+
+#studentImage{
+    width: 300px;
+    height: 350px;
+    border-radius:10px;
+    align-items: center;
+}
+
+#studentInfoContainer{
+    width: 550px;
+    margin: 30px;
+    height:400px;
+
+}
+
+.studentInfo{
+    font-size:20px;
+}
+
+.studentBoard{
+    margin:100px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.studentIndex{
+    width:100px;
+    height:620px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

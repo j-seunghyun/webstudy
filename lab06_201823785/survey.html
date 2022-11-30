@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <title>survey</title>
+</head>
+<body>
+    <form action = "http://localhost:3000/submit_success.html" method = "POST">
+        <label>이름</label><input type="text" required name= "name" value = ""><br/>
+        <label>학번</label><input type="password" required name = "student_id"><br/>
+        <label>나이</label><input type="number" required name = "age" min="1" max = "100"><br/>
+        <label>학과</label>
+        <input type = "radio" id = "radio_sw" name = "major" value = "software"><label for = "radio_sw">소프트웨어학과</label>
+        <input type = "radio" id = "radio_m" name = "major" value = "media"><label for ="radio_m">미디어학과</label>
+        <input type="radio" id = "radio_cd" name = "major" value = "cyber"><label for = "radio_cd">사이버보안학과</label>
+        <input type="radio" id = "radio_ind" name = "major" value = "industrial"><label for="radio_ind">산업공학과</label><br/>
+        <label>수강과목</label>
+        <input type = "checkbox" name = "subject" value = "web"><label>웹시스템설계</label>
+        <input type = "checkbox" name = "subject" value = "operatingsystem"><label>운영체제</label>
+        <input type = "checkbox" name = "subject" value = "artificial"><label>인공지능</label>
+        <input type = "checkbox" name = "subject" value = "engineering"><label>소프트웨어공학</label>
+        <input type = "checkbox" name = "subject" value = "database"><label>데이터베이스</label><br/>
+        <input type="submit" value = "Submit">
+    </form>
+    <button onclick = "location.href = 'http://localhost:3000/survey_statistics.html'">
+        통계 확인
+    </button>
+
+</body>
+</html>
